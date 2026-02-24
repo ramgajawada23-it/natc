@@ -2,12 +2,12 @@
 -- Database Schema for Department-Employee System
 -- ============================================
 
--- Create Database
-CREATE DATABASE IF NOT EXISTS employee_db
-CHARACTER SET utf8mb4
-COLLATE utf8mb4_unicode_ci;
+-- Create Database (Optional - Commented out for managed environments like Aiven)
+-- CREATE DATABASE IF NOT EXISTS employee_db
+-- CHARACTER SET utf8mb4
+-- COLLATE utf8mb4_unicode_ci;
 
-USE employee_db;
+-- USE employee_db;
 
 -- ============================================
 -- Department Table
