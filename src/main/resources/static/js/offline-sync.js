@@ -192,10 +192,12 @@ window.addEventListener('load', async () => {
         await refreshLocalCache();
     }
 
-    // Register Service Worker
+    // Register Service Worker (Disabled temporarily for troubleshooting)
+    /*
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js')
             .then(() => console.log('Service Worker Registered'))
             .catch(err => console.error('SW Registration Failed', err));
     }
+    */
 });
